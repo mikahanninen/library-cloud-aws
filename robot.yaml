@@ -1,0 +1,14 @@
+tasks:
+  RFW:
+    robotTaskName: Check S3 Service
+  Python:
+    shell: python tasks.py
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - .
+ignoreFiles:
+  - .gitignore
